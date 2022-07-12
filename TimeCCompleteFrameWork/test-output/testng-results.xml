@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[---db connection successful---]]>
+    </line>
+    <line>
+      <![CDATA[---db connection closed successfully---]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-07-12T06:56:27 IST" name="Default suite" finished-at="2022-07-12T06:56:31 IST" duration-ms="3829">
+    <groups>
+    </groups>
+    <test started-at="2022-07-12T06:56:27 IST" name="Default test" finished-at="2022-07-12T06:56:31 IST" duration-ms="3829">
+      <class name="endToEndScenarios.CreateProjectAndVerifyInDB">
+        <test-method is-config="true" signature="bsConfig()[pri:0, instance:endToEndScenarios.CreateProjectAndVerifyInDB@5fd4f8f5]" started-at="2022-07-12T06:56:24 IST" name="bsConfig" finished-at="2022-07-12T06:56:27 IST" duration-ms="3086" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[---db connection successful---]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bsConfig -->
+        <test-method signature="CreateProject()[pri:0, instance:endToEndScenarios.CreateProjectAndVerifyInDB@5fd4f8f5]" started-at="2022-07-12T06:56:27 IST" name="CreateProject" finished-at="2022-07-12T06:56:31 IST" duration-ms="3790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateProject -->
+        <test-method is-config="true" signature="asConfig()[pri:0, instance:endToEndScenarios.CreateProjectAndVerifyInDB@5fd4f8f5]" started-at="2022-07-12T06:56:31 IST" name="asConfig" finished-at="2022-07-12T06:56:31 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[---db connection closed successfully---]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- asConfig -->
+      </class> <!-- endToEndScenarios.CreateProjectAndVerifyInDB -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
